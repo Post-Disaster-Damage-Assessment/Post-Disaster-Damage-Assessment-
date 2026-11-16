@@ -1,0 +1,162 @@
+{
+    "total_buildings": 32151,
+    "correct_predictions": 27978,
+    "misclassified_buildings": 4173,
+    "accuracy_percent": 87.02,
+    "error_rate_percent": 12.98,
+    "high_confidence_errors_80_percent_or_more": 870,
+    "class_summary": [
+        {
+            "class": "no-damage",
+            "support": 24178,
+            "correct": 22284,
+            "misclassified": 1894,
+            "error_rate_percent": 7.83
+        },
+        {
+            "class": "minor-damage",
+            "support": 2703,
+            "correct": 1546,
+            "misclassified": 1157,
+            "error_rate_percent": 42.8
+        },
+        {
+            "class": "major-damage",
+            "support": 2782,
+            "correct": 1985,
+            "misclassified": 797,
+            "error_rate_percent": 28.65
+        },
+        {
+            "class": "destroyed",
+            "support": 2488,
+            "correct": 2163,
+            "misclassified": 325,
+            "error_rate_percent": 13.06
+        }
+    ],
+    "most_common_misclassifications": [
+        {
+            "true_class": "no-damage",
+            "predicted_class": "minor-damage",
+            "count": 1047
+        },
+        {
+            "true_class": "minor-damage",
+            "predicted_class": "no-damage",
+            "count": 595
+        },
+        {
+            "true_class": "no-damage",
+            "predicted_class": "major-damage",
+            "count": 476
+        },
+        {
+            "true_class": "minor-damage",
+            "predicted_class": "major-damage",
+            "count": 439
+        },
+        {
+            "true_class": "no-damage",
+            "predicted_class": "destroyed",
+            "count": 371
+        },
+        {
+            "true_class": "major-damage",
+            "predicted_class": "minor-damage",
+            "count": 314
+        },
+        {
+            "true_class": "major-damage",
+            "predicted_class": "no-damage",
+            "count": 289
+        },
+        {
+            "true_class": "major-damage",
+            "predicted_class": "destroyed",
+            "count": 194
+        },
+        {
+            "true_class": "minor-damage",
+            "predicted_class": "destroyed",
+            "count": 123
+        },
+        {
+            "true_class": "destroyed",
+            "predicted_class": "minor-damage",
+            "count": 120
+        }
+    ],
+    "highest_event_error_rates": [
+        {
+            "event": "hurricane-matthew",
+            "buildings": 2493,
+            "errors": 1016,
+            "correct": 1477,
+            "error_rate_percent": 40.75
+        },
+        {
+            "event": "hurricane-michael",
+            "buildings": 4271,
+            "errors": 1459,
+            "correct": 2812,
+            "error_rate_percent": 34.16
+        },
+        {
+            "event": "hurricane-harvey",
+            "buildings": 4744,
+            "errors": 936,
+            "correct": 3808,
+            "error_rate_percent": 19.73
+        },
+        {
+            "event": "hurricane-florence",
+            "buildings": 994,
+            "errors": 76,
+            "correct": 918,
+            "error_rate_percent": 7.65
+        },
+        {
+            "event": "palu-tsunami",
+            "buildings": 5324,
+            "errors": 364,
+            "correct": 4960,
+            "error_rate_percent": 6.84
+        },
+        {
+            "event": "socal-fire",
+            "buildings": 1950,
+            "errors": 122,
+            "correct": 1828,
+            "error_rate_percent": 6.26
+        },
+        {
+            "event": "midwest-flooding",
+            "buildings": 1455,
+            "errors": 67,
+            "correct": 1388,
+            "error_rate_percent": 4.6
+        },
+        {
+            "event": "santa-rosa-wildfire",
+            "buildings": 3428,
+            "errors": 102,
+            "correct": 3326,
+            "error_rate_percent": 2.98
+        },
+        {
+            "event": "guatemala-volcano",
+            "buildings": 145,
+            "errors": 3,
+            "correct": 142,
+            "error_rate_percent": 2.07
+        },
+        {
+            "event": "mexico-earthquake",
+            "buildings": 7347,
+            "errors": 28,
+            "correct": 7319,
+            "error_rate_percent": 0.38
+        }
+    ]
+}

@@ -1,0 +1,3 @@
+event,total,errors,error_rate,mean_correct_confidence,mean_incorrect_confidence,high_confidence_errors,very_high_confidence_errors
+hurricane-matthew,2493,1016,0.40754111512234253,0.7659704338156378,0.6593270677867837,200,62
+hurricane-michael,4271,1459,0.3416061812221962,0.6789730613147721,0.5532816712214083,83,20

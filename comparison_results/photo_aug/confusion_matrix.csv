@@ -1,0 +1,5 @@
+True / Predicted,no-damage,minor-damage,major-damage,destroyed
+no-damage,22404,978,402,394
+minor-damage,636,1522,452,93
+major-damage,302,313,1994,173
+destroyed,103,119,108,2158

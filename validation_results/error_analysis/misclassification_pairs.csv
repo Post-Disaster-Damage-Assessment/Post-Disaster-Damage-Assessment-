@@ -1,0 +1,13 @@
+true_class,predicted_class,count
+no-damage,minor-damage,1047
+minor-damage,no-damage,595
+no-damage,major-damage,476
+minor-damage,major-damage,439
+no-damage,destroyed,371
+major-damage,minor-damage,314
+major-damage,no-damage,289
+major-damage,destroyed,194
+minor-damage,destroyed,123
+destroyed,minor-damage,120
+destroyed,no-damage,114
+destroyed,major-damage,91

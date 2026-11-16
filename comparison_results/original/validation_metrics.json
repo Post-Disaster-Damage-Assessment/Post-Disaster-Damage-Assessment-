@@ -1,0 +1,70 @@
+{
+    "accuracy": 0.8702062144256788,
+    "macro_f1": 0.7441571680041968,
+    "weighted_f1": 0.8737630919076819,
+    "total_buildings": 32151,
+    "class_metrics": [
+        {
+            "class": "no-damage",
+            "precision": 0.9571342668155657,
+            "recall": 0.9216643229382083,
+            "f1": 0.9390644753476611,
+            "support": 24178
+        },
+        {
+            "class": "minor-damage",
+            "precision": 0.5107367030062768,
+            "recall": 0.5719570847206807,
+            "f1": 0.5396160558464224,
+            "support": 2703
+        },
+        {
+            "class": "major-damage",
+            "precision": 0.6636576395854229,
+            "recall": 0.7135154565061107,
+            "f1": 0.6876840464230036,
+            "support": 2782
+        },
+        {
+            "class": "destroyed",
+            "precision": 0.758681164503683,
+            "recall": 0.8693729903536977,
+            "f1": 0.8102640943997003,
+            "support": 2488
+        }
+    ],
+    "checkpoint": ".\\checkpoints_siamese\\best_model.pth",
+    "validation_scenes": 448,
+    "class_names": [
+        "no-damage",
+        "minor-damage",
+        "major-damage",
+        "destroyed"
+    ],
+    "confusion_matrix": [
+        [
+            22284,
+            1047,
+            476,
+            371
+        ],
+        [
+            595,
+            1546,
+            439,
+            123
+        ],
+        [
+            289,
+            314,
+            1985,
+            194
+        ],
+        [
+            114,
+            120,
+            91,
+            2163
+        ]
+    ]
+}

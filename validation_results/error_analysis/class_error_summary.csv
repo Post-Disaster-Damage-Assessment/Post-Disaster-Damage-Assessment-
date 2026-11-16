@@ -1,0 +1,5 @@
+class,support,correct,misclassified,error_rate_percent
+no-damage,24178,22284,1894,7.83
+minor-damage,2703,1546,1157,42.8
+major-damage,2782,1985,797,28.65
+destroyed,2488,2163,325,13.06

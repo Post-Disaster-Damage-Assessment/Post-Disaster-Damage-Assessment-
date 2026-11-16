@@ -1,0 +1,11 @@
+event,buildings,errors,correct,error_rate_percent
+hurricane-matthew,2493,1016,1477,40.75
+hurricane-michael,4271,1459,2812,34.16
+hurricane-harvey,4744,936,3808,19.73
+hurricane-florence,994,76,918,7.65
+palu-tsunami,5324,364,4960,6.84
+socal-fire,1950,122,1828,6.26
+midwest-flooding,1455,67,1388,4.6
+santa-rosa-wildfire,3428,102,3326,2.98
+guatemala-volcano,145,3,142,2.07
+mexico-earthquake,7347,28,7319,0.38

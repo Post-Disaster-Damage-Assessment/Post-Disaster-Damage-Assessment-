@@ -30,3 +30,26 @@ Thumbs.db
 .env
 .env.*
 !.env.example
+# Local inference and temporary analysis outputs
+inference_results/
+alignment_inspection/
+building_examples/
+building_size_analysis/
+error_analysis/
+event_error_galleries/
+event_visual_comparison/
+harvey_analysis/
+michael_analysis/
+event_analysis_v2/
+evaluation/
+
+# Large or redundant experimental records
+*_predictions.csv
+*misclassified_buildings.csv
+*high_confidence_errors.csv
+building_prediction_changes.csv
+*.zip
+
+# Local terminal artifacts
+
+resume_block.txt
